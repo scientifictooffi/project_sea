@@ -132,10 +132,13 @@ If you want a printable PNG, open the deployed `/board`, right-click the QR → 
 
 ---
 
-## 8. Status of this repository
+## 8. Status
 
-- Source code, schema, RLS, Edge Function, and docs are complete and the frontend was tested locally in mock mode (full five-question flow, timer expiry, result page).
-- **Not yet done:** creating the Supabase project, deploying the Edge Function, deploying to Vercel, and multi-device testing. Follow sections 3, 4 and 6.
+- Supabase project created, schema applied, Edge Function `quiz` deployed, admin password set as a secret.
+- Frontend deployed on Vercel: https://project-sea-delta.vercel.app
+- Verified end to end on production: full five-question run, server-side scoring, duplicate protection, leaderboard row, admin stats and reset.
+- Projector page: https://project-sea-delta.vercel.app/board (QR there points at production).
+- Multi-device test with real phones (section 6) still to be done by the organizer before the lesson.
 
 ## Image credits
 - Hero / Exhibit D: Moynaq ship graveyard, Arian Zwegers, CC BY 2.0 (Wikimedia Commons).
