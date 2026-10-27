@@ -1,0 +1,3 @@
+# Minimal local config for the Supabase CLI. Project ref is set via `supabase link`.
+[functions.quiz]
+verify_jwt = false
